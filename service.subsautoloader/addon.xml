@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.subsautoloader" name="Subs Autoloader" version="1.0.0" provider-name="recrof">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<!--import addon="script.module.web-pdb" version="1.5.6"/-->
+	</requires>
+	<extension point="xbmc.service" library="service.py"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">AutoLoad subtitles from Subs dir</summary>
+		<description lang="en_GB">Automatically load subtitles from Subs folder when video starts playing</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+	</extension>
+</addon>
