@@ -1,7 +1,7 @@
-# kodi.service.subsautoloader
-## Autoload subtitles from `Subs` folder
+# Kodi Addon: Autoload subtitles from `Subs` folder
+
 ### Description and configuration
-Auto-loads subtitles from location `Name.of.the.release/Subs/Name.of.the.video/[number]_[language].srt` when user starts playback.
+Auto-loads subtitles from location `Subs/Name.of.the.video/[number]_[language].srt` on video playback.
 
 `[language]` is first language used from kodi settings(`Player > Subtitles > Preferred Subtitle Language`).
 
