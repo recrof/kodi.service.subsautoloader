@@ -9,6 +9,6 @@
 		<summary lang="en_GB">AutoLoad subtitles from Subs dir</summary>
 		<description lang="en_GB">Automatically load subtitles from Subs folder when video starts playing</description>
 		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<license>Apache License 2.0</license>
 	</extension>
 </addon>
