@@ -8,4 +8,4 @@ Auto-loads subtitles from location `Subs/Name.of.the.video/[number]_[language].s
 This form of Subtitle folder structure is mostly used in RARBG releases that include multiple videos(show season in one release).
 
 ### Installation and Usage
-download latest release from [releases](https://github.com/recrof/kodi.service.subsautoloader/releases/), then [Use kodi guide to install the addon zip file](https://kodi.wiki/view/Archive:Install_add-ons_from_zip_files). Autoloader should work right after installation.
+Download latest release from [releases](https://github.com/recrof/kodi.service.subsautoloader/releases/), then [Use kodi guide to install the addon zip file](https://kodi.wiki/view/Archive:Install_add-ons_from_zip_files). Subs autoloader should work right after installation.
