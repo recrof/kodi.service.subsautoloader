@@ -15,20 +15,30 @@ def execRPC(method, params):
 
 	return resObject['result']
 
+def findSub(path, language):
+	dirs, files = xbmcvfs.listdir(path)
+
+	if len(files) == 0:
+		return ''
+
+	for subFile in files[::-1]:
+		if language.lower() in subFile.lower():
+			return subFile
+	return ''
+
 def getSubFilePath(videoPath):
 	videoFile = os.path.basename(videoPath)
 	rootPath = os.path.dirname(videoPath)
 	subVideoName = '.'.join(videoFile.split('.')[0:-1])
-	subPath = rootPath + '/Subs/' + subVideoName
+	subPath = rootPath + '/Subs'
 
 	subLanguages = execRPC('Settings.GetSettingValue', { 'setting': 'subtitles.languages' })['value']
 	debug('using subtitle language: ' + subLanguages[0])
 
-	dirs, files = xbmcvfs.listdir(subPath)
-
-	for subFile in files[::-1]:
-		if subLanguages[0].lower() in subFile.lower():
-			return subPath + '/' + subFile
+	for path in [subPath, subPath + '/' + subVideoName]:
+		foundSub = findSub(path, subLanguages[0])
+		if foundSub:
+			return path + '/' + foundSub
 
 	return ''
 
