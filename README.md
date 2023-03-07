@@ -5,7 +5,7 @@ Auto-loads subtitles from location `Subs/[number]_[language].srt`(Movies) or `Su
 
 `[language]` is first language used from kodi settings(`Player > Subtitles > Preferred Subtitle Language`).
 
-This folder structure is mostly used in torrent releases(eg. RARBG) that contain multiple episodes(show season in one release).
+`Subs` subtitle folder structure is mostly used in torrent releases(eg. RARBG).
 
 ### Installation and Usage
 Download latest release from [releases](https://github.com/recrof/kodi.service.subsautoloader/releases/), then [Use kodi guide to install the addon zip file](https://kodi.wiki/view/Archive:Install_add-ons_from_zip_files). Subs autoloader should work right after installation.
