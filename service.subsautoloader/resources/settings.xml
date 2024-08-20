@@ -1,0 +1,30 @@
+<settings>
+    <category label="Subtitle Configuration">
+        <setting id="language1" type="labelenum" label="Language 1" values="English|Italian|Spanish|French|German|Other" default="0" />
+        <setting id="langcode1" type="text" label="Language Code 1" default="eng" />
+        
+        <setting id="language2" type="labelenum" label="Language 2" values="English|Italian|Spanish|French|German|Other" default="1" />
+        <setting id="langcode2" type="text" label="Language Code 2" default="ita" />
+        
+        <setting id="language3" type="labelenum" label="Language 3" values="English|Italian|Spanish|French|German|Other" default="2" />
+        <setting id="langcode3" type="text" label="Language Code 3" default="spa" />
+
+        <setting id="language4" type="labelenum" label="Language 4" values="English|Italian|Spanish|French|German|Other" default="3" />
+        <setting id="langcode4" type="text" label="Language Code 4" default="fra" />
+
+        <setting id="language5" type="labelenum" label="Language 5" values="English|Italian|Spanish|French|German|Other" default="4" />
+        <setting id="langcode5" type="text" label="Language Code 5" default="deu" />
+        
+        <!-- Additional slots for custom languages -->
+        <setting id="language6" type="text" label="Language 6" default="" />
+        <setting id="langcode6" type="text" label="Language Code 6" default="" />
+        
+        <setting id="language7" type="text" label="Language 7" default="" />
+        <setting id="langcode7" type="text" label="Language Code 7" default="" />
+        
+        <!-- Add as many slots as you deem necessary -->
+    </category>
+    <category label="Default Subs Folder">
+        <setting id="defaultsubsdir" type="text" label="Default Subs Folder" default="Subs" />
+    </category>
+</settings>
